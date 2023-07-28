@@ -1,0 +1,19 @@
+1.Functional Programming
+2.Lambda expresiion
+3.stream api
+4.Define method in Interface
+5.Main thing is fuction
+
+6.Functional Proframming : In java main thing was object, but in functional programming , it says the main thing is the behaviour of the object that is the method.
+
+7.imperative programming:what to do , and how to do it
+
+8.declarative programming:what to do , not focus on how to do it
+
+9.lambda expression : Remove boiler plate code
+
+10.stream API : in java we define varible, those variable are mutable means u can change the value of the variables.If u r changing the value, if u have multiple threads working on the same methods.2 threads are try ing to access same variables , it creats prblm.
+
+stream api take take care of the mutation work so achive concurrency
+
+
