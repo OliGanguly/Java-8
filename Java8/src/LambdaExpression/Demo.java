@@ -5,13 +5,13 @@ import java.util.List;
 
 
 interface  A{
-    void show();
+    void show(int i);
 }
-class C implements A{
-    public void show() {
-        System.out.println("Hello");
-    }
-}
+//class C implements A{
+//    public void show() {
+//        System.out.println("Hello");
+//    }
+//}
 public class Demo {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(2,3,4,4,5,6);
@@ -36,13 +36,26 @@ public class Demo {
         * What we can do to fix this issue??
         * */
 
-        A obj = new A(){
-            @Override
-            public void show() {
-                System.out.println("Hello");
-            }
-        };
-        obj.show();
+        /*
+        * This {} block is a class
+        * its called Anonymous Class which has no name
+        * */
+//        A obj = new A() {
+//            public void show() {
+//                System.out.println("Hello");
+//            }
+//        };
+//        obj.show();
+
+        //ANother way
+//        A obj1 = () -> {
+//            System.out.println("Hello 2");
+//        };
+        //New way of Implementing Interface
+        A obj2 = (j) -> System.out.println("Hello "+j);
+
+        obj2.show(5);
+
 
 
     }
