@@ -10,6 +10,15 @@ interface Phone{
     }
 }
 class Android implements Phone{
+//    @Override
+//    public void call() {
+//
+//    }
+//
+//    @Override
+//    public void messgage() {
+//        Phone.super.messgage();
+//    }
     public void call(){
         System.out.println("Calling...");
     }

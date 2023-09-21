@@ -10,7 +10,7 @@ public class Demo {
 //        list.add(3);
 //        list.add(4);
 //        list.add(5);
-
+//List l1 = Arrays.asList(2,4,5,6);
         List<Integer> l= Arrays.asList(2,3,4,5);
 //        System.out.println("Type"+(l));
         //way 1

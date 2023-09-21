@@ -27,5 +27,6 @@ public class Lambda {
 
         LambdaInterface obj =(i)-> System.out.println(i);
 
+
     }
 }
