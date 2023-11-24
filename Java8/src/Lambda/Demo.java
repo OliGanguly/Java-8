@@ -1,6 +1,7 @@
 package Lambda;
+@FunctionalInterface
 interface A{
-    public void show();
+     void show(int x);
 }
 interface B{
     public void showB();
@@ -14,6 +15,10 @@ interface B{
 //}
 public class Demo {
     public static void main(String[] args) {
+        A obj = (a)-> System.out.println("OLi"+ ":" + a);
+        obj.show(30);
+//        Runnable
+
 //    A obj = new A(){ //ANonymous Inner class
 ////        public int show(int i) {
 ////           return i;

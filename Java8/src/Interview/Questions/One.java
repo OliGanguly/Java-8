@@ -26,7 +26,7 @@ public class One {
         String string ="I am Oli Oli I am I am a Female";
         List<String> list1 = Arrays.asList(string.split(" "));
         System.out.println(list1);
-        list1.stream().filter(name->Collection.frequency)
+//        list1.stream().filter(name->Collection.)
         //Map -Key:Value
         //collect-groupingBy-create a key value pair , ist args Function ->makes input as a key : second one os value
         //key is my input : fun.identity returns what it gets

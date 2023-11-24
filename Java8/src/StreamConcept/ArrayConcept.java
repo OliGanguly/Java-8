@@ -9,6 +9,8 @@ import java.util.stream.Collectors;
 public class ArrayConcept {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
+        List<Integer> list2=new ArrayList<>();
+
         for (int i=10;i<=20;i++){
             list.add(i);
         }
